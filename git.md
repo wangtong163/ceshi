@@ -20,3 +20,14 @@ git config --global merge.tool vimdiff
 git config --list
 ```
 
+
+>移动文件
+```ruby
+git mv file_from file_to#要在 Git 中对文件改名，可以这么做
+```
+>查看提交历史
+```ruby
+git log
+git log -p #显示每次提交的差异
+git log --stat #仅显示简要的增改行数统计
+```
