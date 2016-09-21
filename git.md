@@ -163,4 +163,26 @@ git checkout master #切换到master分之
 git merge bj-1 #合并分支
 ```
 >遇到冲突时的分支合并
-冲突冲突冲突
+```ruby
+git merge bj-2
+#自动合并 git.md
+#冲突（内容）：合并冲突于 git.md
+#自动合并失败，修正冲突然后提交修正的结果。
+git status
+#位于分支 master
+#您有尚未合并的路径。
+#  （解决冲突并运行 "git commit"）
+
+#未合并的路径：
+#  （使用 "git add <文件>..." 标记解决方案）
+#
+#	双方修改：   git.md
+#
+#修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
+
+
+#删除冲突标记解决
+git add git.md 
+git commit -m '冲突解决'
+
+```
