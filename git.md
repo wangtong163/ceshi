@@ -56,3 +56,21 @@ git tag
 ```ruby
 git tag -a v0.1 -m '测试标签'
 ```
+###分支
+>新建并且切换到分之
+```ruby
+git checkout -b bj-1 #相当于执行两条命令
+
+git branch bj-1 #新建分支
+git checkout bj-1 #切换分支
+```
+>删除分之
+```ruby
+git branch -d bj-1
+```
+>合并分支
+```ruby
+git checkout master #切换到master分之
+git merge bj-1 #合并分支
+```
+>遇到冲突时的分支合并
