@@ -109,7 +109,6 @@ git commit
 git commit -m '更新说明'
 ```
 
-
 >移动文件
 ```ruby
 git mv file_from file_to#要在 Git 中对文件改名，可以这么做
@@ -164,3 +163,5 @@ git merge bj-1 #合并分支
 ```
 >遇到冲突时的分支合并
 冲突冲突冲突
+啊啊啊vdadsfe
+
