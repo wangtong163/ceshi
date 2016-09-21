@@ -163,3 +163,4 @@ git checkout master #切换到master分之
 git merge bj-1 #合并分支
 ```
 >遇到冲突时的分支合并
+冲突冲突冲突
